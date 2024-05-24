@@ -2,13 +2,12 @@ body {
     background-color: black;
     font-family: 'Quicksand', sans-serif;
     padding: 0;
-    line-height: 1.6;
+    /*line-height: 1.6;*/
 }
 
 /*header*/
 
 header {
-    position: fixed;
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -75,6 +74,62 @@ nav ul li {
     width: 1.5rem;
     height: 1.5rem;
     margin-left: 1% ;
+}
+/*main container*/
+.main_container {
+    position: relative;
+    width: 100%;
+    background-color: darkslateblue;
+    display: flex;
 
+}
 
+.main_container p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 6.75rem;
+}
+
+.main_slogan {
+    flex: 2;
+    margin-left: 2rem;
+    border-bottom: white solid 1px;
+}
+
+.orange {
+    color: rgba(228, 67, 32, 1);
+}
+
+.avatars_container {
+    display: flex;
+    align-items: center;
+}
+
+.avatars_container img {
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.avatars_container_small {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.avatars_container_small img {
+    position: absolute;
+}
+
+.avatars_container_small p {
+    margin-left: 35%;
+}
+
+#avatar_2 {
+    left: 50px;
+}
+
+#avatar_3 {
+    left: 100px;
 }
