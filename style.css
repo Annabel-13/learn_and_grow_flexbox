@@ -5,6 +5,11 @@ body {
     /*line-height: 1.6;*/
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 /*header*/
 
 header {
@@ -76,6 +81,8 @@ nav ul li {
     margin-left: 1% ;
 }
 /*main container*/
+
+
 .main_container {
     position: relative;
     width: 100%;
@@ -91,6 +98,7 @@ nav ul li {
     font-size: 6.75rem;
 }
 
+/*main slogan*/
 .main_slogan {
     flex: 2;
     margin-left: 2rem;
@@ -132,4 +140,33 @@ nav ul li {
 
 #avatar_3 {
     left: 100px;
+}
+
+/*start learning*/
+.start_learning {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    gap: 50%;
+    align-items: center;
+}
+
+.start_learning .small_slogan {
+    flex: 2;
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.start_learning_btn {
+    margin: 0 auto;
+    flex: 1;
+}
+
+.start_learning button {
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
 }
