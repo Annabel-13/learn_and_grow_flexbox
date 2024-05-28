@@ -132,7 +132,7 @@ nav ul li a {
 .arrow:hover {
     cursor: pointer;
     background-color: black;
-    border: rgba(228, 67, 32, 1) solid 1px;
+    border: rgba(228, 67, 32, 1) solid 2px;
 }
 /*main container*/
 
@@ -368,7 +368,7 @@ nav ul li a {
 }
 
 .orange_circle {
-    background-color: rgba(228, 67, 32, 1);;
+    background-color: rgba(228, 67, 32, 1);
 }
 
 .white_circle {
@@ -382,7 +382,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     gap: 3px;
     margin-bottom: 3rem;
 }
@@ -401,6 +401,12 @@ nav ul li a {
     border-radius: 10px;
     position: relative;
     margin: 1rem;
+}
+
+.review:hover {
+    background-color: rgba(228, 67, 32, 1);
+    cursor: pointer;
+    border: white solid 3px;
 }
 
 .review_img {
@@ -430,14 +436,29 @@ nav ul li a {
     color: black;
     border-radius: 10px;
     margin: 1rem auto;
-}
 
-.blog_article {
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
     padding-top: 2rem;
 }
+
+.blog_article:hover {
+    background-color: rgba(228, 67, 32, 1);
+    cursor: pointer;
+    border: white solid 3px;
+}
+
+.orange_article {
+    background-color: rgba(228, 67, 32, 1);
+}
+
+.orange_article:hover {
+    background-color: white;
+    cursor: pointer;
+    border: rgba(228, 67, 32, 1) solid 3px;
+}
+
 
 .main_blog_title {
     font-size: 2rem;
@@ -446,7 +467,6 @@ nav ul li a {
 .blog_avatars {
     margin-top: 0.5rem;
     position: relative;
-    /*padding-left: 12%;*/
 }
 
 .blog_avatars img {
@@ -459,6 +479,50 @@ nav ul li a {
 
 #avatar_4 {
     left: 11.3rem;
+}
+
+.blog_topics {
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.blog_topic {
+    background-color: black;
+    border: white solid 1px;
+    border-radius: 2rem;
+    padding: 0.5rem 3rem;
+    text-align: center;
+    margin: 1rem;
+    min-width: auto; /* Allow the div to shrink to fit its content */
+    max-width: 100%;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.blog_topic:hover {
+    background-color: white;
+    border-color: black;
+    cursor: pointer;
+    color: black;
+}
+
+.decoration_circles_blog {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+
+.decoration_circles_blog img {
+    margin: 0 auto;
+    padding: 22% 20%;
+}
+
+.first_blog_topic {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 
