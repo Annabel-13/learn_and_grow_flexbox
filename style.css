@@ -403,8 +403,24 @@ nav ul li a {
     margin: 1rem;
 }
 
-.review img {
+.review_img {
     bottom: 0;
     right: 0;
     position: absolute;
+}
+
+.review_title {
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: absolute;
+    width: 30%;
+    text-align: left;
+    margin-left: 2rem;
+    top: 25%;
+}
+
+
+
+.title_bold {
+    font-size: 1.5rem;
 }
