@@ -78,6 +78,11 @@ nav ul li {
     font-size: 1.375rem;
 }
 
+.navigation ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .login_btn{
     flex: 1;
     display: flex;
@@ -87,6 +92,11 @@ nav ul li {
     align-items: center;
     z-index: 99;
     /*background-color: aqua;*/
+}
+
+.login_btn p:hover {
+    cursor: pointer;
+    border: white solid 1px;
 }
 
 .login_btn img {
@@ -116,6 +126,8 @@ nav ul li {
 
 .arrow:hover {
     cursor: pointer;
+    background-color: black;
+    border: rgba(228, 67, 32, 1) solid 1px;
 }
 /*main container*/
 
@@ -212,6 +224,11 @@ nav ul li {
     box-shadow: none;
     border: none;
 
+}
+
+.start_learning button:hover {
+    cursor: pointer;
+    background-color: rgba(228, 67, 32, 1);
 }
 
 #star {
