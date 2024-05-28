@@ -18,7 +18,7 @@ html {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    overflow: hidden; /* or scroll/auto, depending on your needs */
+    overflow-x: hidden;
 }
 
 p {
@@ -41,6 +41,11 @@ header {
 
 nav ul li {
     list-style-type: none;
+}
+
+nav ul li a {
+   text-decoration: none;
+    color: white;
 }
 
 .logo {
@@ -136,6 +141,7 @@ nav ul li {
     position: relative;
     width: 75rem;
     display: flex;
+    margin-bottom: 3rem;
 }
 
 .main_container p {
@@ -367,4 +373,38 @@ nav ul li {
 
 .white_circle {
     background-color: white;
+}
+
+/*Articles*/
+
+.articles_container {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 3px;
+    margin-bottom: 3rem;
+}
+
+.articles_part {
+    background-color: black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+}
+
+.review {
+    background-color: white;
+    width: 25rem;
+    height: 20rem;
+    border-radius: 10px;
+    position: relative;
+    margin: 1rem;
+}
+
+.review img {
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }

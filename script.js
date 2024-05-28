@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     let clickableDiv = document.querySelector('.arrow');
-    let nextBlock = document.querySelector('.service_container');
+    let nextBlock = document.querySelector('.articles_container');
 
     clickableDiv.addEventListener('click', function() {
         // Scroll to the next block
