@@ -71,7 +71,7 @@ nav ul li {
     justify-content: right;
     margin-right: 2rem;
     align-items: center;
-
+    z-index: 99;
     /*background-color: aqua;*/
 }
 
@@ -202,6 +202,7 @@ nav ul li {
     position: absolute;
     right: 0;
     bottom: 0;
+    border-radius: 10px;
 }
 
 .count_courses {
@@ -241,6 +242,9 @@ nav ul li {
 .orange_container {
     background-color: rgba(228, 67, 32, 1);
     position: relative;
+    height: 35rem;
+    top: -22%
+
 }
 
 .orange_photo {
@@ -280,4 +284,29 @@ nav ul li {
     font-weight: 900;
     text-shadow: 1px 0 white, 0 1px white, -1px 0 white, 0 -1px white;
     text-transform: uppercase;
+}
+
+.decoration_circles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 4rem;
+    height: 4rem;
+    background-color: blue;
+    top: 88%;
+    left: 30%;
+    position: relative;
+    gap: 5px;
+}
+
+.white_circle, .orange_circle {
+    border-radius: 50%;
+}
+
+.orange_circle {
+    background-color: rgba(228, 67, 32, 1);;
+}
+
+.white_circle {
+    background-color: white;
 }
