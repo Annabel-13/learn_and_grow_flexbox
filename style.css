@@ -197,13 +197,21 @@ nav ul li {
 
 }
 
+#star {
+    position: absolute;
+    width: 4.375rem;
+    height: auto;
+    left: 60%;
+    top: -1%;
+}
+
 /*photo_containers*/
 .photo_containers {
     display: flex;
     flex: 3;
     background-color: brown;
-    gap: 0.5rem;
-    margin-left: 3rem;
+    /*gap: 0.3rem;*/
+    margin-left: 4rem;
 }
 .photo_container {
     position: relative;
@@ -258,8 +266,12 @@ nav ul li {
     background-color: rgba(228, 67, 32, 1);
     position: relative;
     height: 35rem;
-    top: -22%
+    top: -22%;
+    right: -7%;
+}
 
+.orange_container img {
+    left: 25%;
 }
 
 .orange_photo {
