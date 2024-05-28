@@ -261,3 +261,23 @@ nav ul li {
     z-index: 2;
     pointer-events: none;
 }
+
+.prof_example {
+    width: 50%;
+    text-align: center;
+    top: 30%;
+    position: relative;
+}
+
+.prof_example p {
+    font-size: 1rem;
+    text-transform: none;
+    font-weight: 200;
+}
+
+.white_bold {
+    font-size: 3.5625rem;
+    font-weight: 900;
+    text-shadow: 1px 0 white, 0 1px white, -1px 0 white, 0 -1px white;
+    text-transform: uppercase;
+}
