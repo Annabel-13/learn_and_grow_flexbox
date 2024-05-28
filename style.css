@@ -34,11 +34,9 @@ header {
     flex-direction: row;
     height: 5.3125rem;
     color: white;
-    /*padding: 1.5%;*/
     align-items: baseline;
-    margin: 2rem 2rem 0 1rem;
+    margin-top: 1.5rem;
     z-index: 100;
-    /*justify-content: center;*/
 }
 
 nav ul li {
@@ -53,8 +51,8 @@ nav ul li {
     flex: 1;
     height: auto;
     align-items: center;
-    /*background-color: red;*/
     bottom: 0;
+    padding-left: 2%;
 }
 
 .logo img {
@@ -97,13 +95,34 @@ nav ul li {
     height: 1.5rem;
     margin-left: 1% ;
 }
+
+/*arrow*/
+.arrow {
+    background-color: rgba(228, 67, 32, 1);
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 77;
+    margin: 0 auto;
+    bottom: 1%;
+    left: 48%;
+}
+
+.arrow img {
+  margin: 1.5rem;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
 /*main container*/
 
 
 .main_container {
     position: relative;
     width: 75rem;
-    background-color: darkslateblue;
     display: flex;
 }
 
@@ -117,7 +136,6 @@ nav ul li {
 /*main slogan*/
 
 .slogan_containers {
-    background-color: orange;
     padding: 4rem 0 4rem 2rem;
     flex: 3;
 }
@@ -170,7 +188,6 @@ nav ul li {
 /*start learning*/
 .start_learning {
     display: flex;
-    background-color: aqua;
     justify-content: space-between;
     gap: 30%;
     align-items: center;
@@ -209,8 +226,6 @@ nav ul li {
 .photo_containers {
     display: flex;
     flex: 3;
-    background-color: brown;
-    /*gap: 0.3rem;*/
     margin-left: 4rem;
 }
 .photo_container {
@@ -319,7 +334,6 @@ nav ul li {
     grid-template-rows: repeat(2, 1fr);
     width: 4rem;
     height: 4rem;
-    background-color: blue;
     top: 88%;
     left: 30%;
     position: relative;
