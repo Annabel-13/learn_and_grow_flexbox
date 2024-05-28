@@ -174,7 +174,7 @@ nav ul li {
     width: 14rem;
     height: 4rem;
     font-size: 1.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     background-color: rgba(217, 217, 217, 1);
     box-shadow: none;
@@ -185,8 +185,59 @@ nav ul li {
 /*photo_containers*/
 .photo_containers {
     display: flex;
-    /*width: 100%;*/
     flex: 3;
     background-color: brown;
+    gap: 0.5rem;
+    margin-left: 3rem;
 }
-.photo_container
+.photo_container {
+    position: relative;
+    width: 22.8125rem;
+    height: 33.5rem;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 10px;
+}
+
+.photo_container img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.count_courses {
+    top: 25%;
+    position: relative;
+    border-bottom: black solid 3px;
+    padding: 0.5rem;
+    width: 30%;
+    text-align: center;
+}
+
+.count_courses::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; /* Adjust to match the border width and dot size */
+    right: -4px;  /* Adjust to place the dot at the end of the border */
+    width: 8px;   /* Adjust the size of the dot */
+    height: 8px;  /* Adjust the size of the dot */
+    background-color: black; /* Set the color of the dot */
+    border-radius: 50%; /* Make it a circle */
+}
+
+.count_courses p {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 0.9;
+}
+
+.bold_text {
+    font-weight: 900;
+    text-shadow: 1px 0 black, 0 1px black, -1px 0 black, 0 -1px black;
+    font-size: 2.3125rem;
+}
+
+
+.orange_container {
+    background-color: rgba(228, 67, 32, 1);
+}
