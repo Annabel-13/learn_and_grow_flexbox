@@ -1,8 +1,24 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     font-family: 'Quicksand', sans-serif;
     padding: 0;
-    /*line-height: 1.6;*/
+    margin: 0;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    overflow: hidden; /* or scroll/auto, depending on your needs */
 }
 
 p {
@@ -20,7 +36,7 @@ header {
     color: white;
     /*padding: 1.5%;*/
     align-items: baseline;
-    margin: 2rem 2rem 0 2rem;
+    margin: 2rem 2rem 0 1rem;
     z-index: 100;
     /*justify-content: center;*/
 }
@@ -86,10 +102,9 @@ nav ul li {
 
 .main_container {
     position: relative;
-    width: 100%;
+    width: 75rem;
     background-color: darkslateblue;
     display: flex;
-
 }
 
 .main_container p {
@@ -103,7 +118,7 @@ nav ul li {
 
 .slogan_containers {
     background-color: orange;
-    margin: 4rem 0 4rem 4rem;
+    padding: 4rem 0 4rem 2rem;
     flex: 3;
 }
 
