@@ -38,9 +38,9 @@ Each exercise includes explanations and interactive examples for practice.
 
 Here are some screenshots of the project:
 
-- ![Screenshot 1](https://github.com/Annabel-13/learn_and_grow_flexbox/blob/main/screenshots/screenshot1.png)
-- ![Screenshot 2](https://github.com/Annabel-13/learn_and_grow_flexbox/blob/main/screenshots/screenshot2.png)
-- ![Screenshot 3](https://github.com/Annabel-13/learn_and_grow_flexbox/blob/main/screenshots/screenshot3.png)
+- ![Screenshot 1](https://github.com/Annabel-13/learn_and_grow_flexbox/blob/main/screenshots/first_screen.png)
+- ![Screenshot 2](https://github.com/Annabel-13/learn_and_grow_flexbox/blob/main/screenshots/second_screenshot.png)
+- ![Screenshot 3](https://github.com/Annabel-13/learn_and_grow_flexbox/blob/main/screenshots/third_screen.png)
 
-Thanks for reference! Link on Figma Example:
+Thanks for the reference! Link on Figma Example:
 https://www.figma.com/file/JkQVRq0CTwOXuGNjF9UyeM/Learn-%26-Grow%3A-Platform-For-Skills-%26-Learning-(Community)?type=design&node-id=0-1&mode=design
